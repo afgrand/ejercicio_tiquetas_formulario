@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio etiquetas de formulario</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend><h1>Registro en Nuestra Tienda</h1></legend>
+          <p>
+            <label for="nombre">Nombre de usuario</label>
+            </br>
+            <input name="nombre" type="text" placeholder="Ej: Luis">
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            </br>
+            <input name"email" type="email" placeholder="Ej: luis@gmail.com">
+          </p>
+          <p>
+            <label for="edad">Edad:</label>
+            </br>
+            <input name"edad" type="number" placeholder="Ej: 21">
+          </p>
+          <p>
+            <label for="Genero:">Genero</label> </br>
+              <input name="genero" type="radio" value="Masculino" />Masculino </br>
+              <input name="genero" type="radio" value="Femenino" />Femenino
+          </p>
+          <p>
+            <label for="recomendado">Recomendado por:</label>
+            </br>
+            <select>
+              <option>Google</option>
+              <option>Amigo</option>
+              <option>Redes sociales</option>
+            </select>
+          </p>
+          <p>
+            <label for="comentarios">Comentarios</label>
+            </br>
+            <textarea name="comentarios" rows="4" cols="30"></textarea>
+          </p>
+          <p>
+            <label for="acepto">Acepto terminos y condiciones</label>
+            </br>
+            <input name="acepto" type="checkbox" checked="checked">
+          </p>
+          <p>
+            <input type="submit" value="Registrese">
+          </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
